@@ -26,6 +26,9 @@ Time required ~# 1.02 Second
 # MD5 Crack installation
 ------
 ```
+- apt update && apt upgrade -y
+- pkg install git -y
+- pkg install python -y
 - git clone https://github.com/MSVerse/MD5-Crack
 - cd MD5-Crack
 - chmod +x crack.py

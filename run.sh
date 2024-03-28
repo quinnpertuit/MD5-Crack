@@ -2,7 +2,8 @@
 
 cat banner.txt
 
-python /module/crack.py
+cd module
+python crack.py
 
 if [ $? -ne 0 ]; then
     echo "An error occurred while running the script..."
